@@ -35,9 +35,11 @@ section {
     justify-content: space-between;
     position: fixed;
     width: 100%;
-    /* margin: 0 auto; */
+    top: 0;
+    margin: 0 auto;
     height: 55px;
     background-color: #999;
+    z-index: 3;
 }
 
 .header .left h1 {
@@ -45,6 +47,7 @@ section {
     margin-top: 5px;
     padding: 3px;
     font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header .left h1 a {
@@ -65,7 +68,6 @@ section {
 .header .right nav ul li a {
     color: #fff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    transition: .4s;
 }
 
 .header .right nav ul li a:hover {
@@ -75,6 +77,70 @@ section {
 
 
 
+
+.footer {
+    background-color: #999;
+    bottom: 0;
+    padding: 8px;
+}
+
+.footer .copylight {
+    text-align: center;
+}
+
+.footer .copylight p small {
+    color: #fff;
+}
+
+
+
+
 /* INDEX */
 
 
+#home {
+    margin-bottom: 200px;
+}
+
+#home .message {
+    height: 650px;
+    background: -moz-linear-gradient(top, #FFC778, #FFF);
+    background: -webkit-linear-gradient(top, #FFC778, #FFF);
+    background: linear-gradient(to bottom, #FFC778, #FFF);
+}
+
+#home .message h2 {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 5.5rem;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    /* text-shadow: 2px 2px 1px #ddd; */
+}
+
+
+.menu-title {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menus ul {
+    display: flex;
+    justify-content: center;
+}
+
+.menus ul li {
+    padding: 10px;
+}
+
+.menus ul li a {
+    color: #999;
+    font-size: 1.25rem;
+    transition: .4s;
+}
+
+.menus ul li a:hover {
+    color: #2C7CFF;
+}
