@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+
+/* COMMON */
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "YU Gothic Medium", YuGothic, sans-serif;
+    line-height: 1.7;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+section {
+    z-index: 2;
+}
+
+
+
+
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    /* margin: 0 auto; */
+    height: 55px;
+    background-color: #999;
+}
+
+.header .left h1 {
+    font-size: 1.5rem;
+    margin-top: 5px;
+    padding: 3px;
+    font-weight: normal;
+}
+
+.header .left h1 a {
+    color: #fff;
+}
+
+.header .right nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .right nav ul li {
+    margin-right: 18px;
+    margin-top: 10px;
+    padding: 3px;
+}
+
+.header .right nav ul li a {
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: .4s;
+}
+
+.header .right nav ul li a:hover {
+    color: #2C7CFF;
+}
+
+
+
+
+/* INDEX */
+
+
