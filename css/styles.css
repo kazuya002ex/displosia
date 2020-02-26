@@ -33,6 +33,11 @@ section {
     margin-top: 95px;
 }
 
+.next-page {
+    padding-bottom: 40px;
+}
+
+
 
 
 
@@ -155,6 +160,45 @@ section {
 }
 
 
+
+
+
+/* PORTFOLIO */
+
+#portfolio {
+    width: 100%;
+}
+
+.links {
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 40px;
+}
+
+.links a img {
+    box-shadow: 4px 4px 2px #ccc;
+    transition: .4s;
+}
+
+.links a img:hover {
+    transform: scale(1.05);
+    opacity: .7;
+}
+
+.links h4 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-family: 'M PLUS 1p';
+    color: #555;
+}
+
+.links p {
+    margin-bottom: 140px;
+}
+
+.links .old p {
+    margin-bottom: 30px;
+}
 
 
 
