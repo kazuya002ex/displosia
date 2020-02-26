@@ -25,6 +25,14 @@ section {
     z-index: 2;
 }
 
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 8px;
+    margin-top: 95px;
+}
+
 
 
 
@@ -100,6 +108,7 @@ section {
 
 #home {
     margin-bottom: 200px;
+    height: 915px;
 }
 
 #home .message {
@@ -143,4 +152,40 @@ section {
 
 .menus ul li a:hover {
     color: #2C7CFF;
+}
+
+
+
+
+
+
+/* CONTACT */
+
+#contact {
+    width: 100%;
+    height: 1020px;
+    background: -moz-linear-gradient(top, #FFF, #FFC778 30%, #F89174 60%, #748af8);
+    background: -webkit-linear-gradient(top, #FFF, #FFC778 30%, #F89174 60%, #748af8);
+    background: linear-gradient(to bottom, #FFF, #FFC778 30%, #F89174 60%, #748af8);
+}
+
+.means {
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 40px;
+}
+
+.means p {
+    padding: 20px;
+    font-size: 1.125rem;
+}
+
+.means p a {
+    color: #333;
+    text-shadow: 2px 2px 1px #ddd;
+    transition: .4s;
+}
+
+.means p a:hover {
+    opacity: .4;
 }
