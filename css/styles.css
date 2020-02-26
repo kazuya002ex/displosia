@@ -185,30 +185,63 @@ section {
 }
 
 .profile img {
-    width: 100%;
+    width: 40%;
     max-width: 100%;
     height: auto;
     border-radius: 88px;
     box-shadow: 4px 4px 2px #888;
+    margin-left: 30%;
+    text-align: center;
 }
 
-.profile h3,
-.profile .name-en {
+.profile .content h3,
+.profile .content .name-en {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: normal;
 }
 
-.profile .name-en {
+.profile .content .name-en {
     border-bottom: 1px solid #eee;
 }
 
-.profile .desc {
+.profile .content .desc {
     padding: 10px 0;
+    margin-left: 30%;
+    font-size: 1rem;
 }
 
 .media {
     margin: 20px 0 70px;
+}
+
+.media h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.media ul {
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #F89174;
+    padding: 3px;
+    border-radius: 8px;
+    border: 2px solid #333;
+
+}
+
+.media ul li {
+    padding: 5px 2px;
+}
+
+.media ul li a {
+    color: #333;
+    transition: .4s;
+    font-family: 'Arvo';
+}
+
+.media ul li a:hover {
+    color: #2C7CFF;
 }
 
 
@@ -341,7 +374,34 @@ section {
 }
 
 
+@media screen and (max-width: 1001px) {
+
+    /* ABOUT */
+    .profile {
+        display: block;
+    }
+
+    .profile img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .profile .content .desc {
+        margin-left: 0;
+    }
+
+    .media ul {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
 @media screen and (max-width: 781px) {
+
+    /* ABOUT */
+    .profile .content .desc {
+        font-size: 0.875rem;
+    }
 
     /* SKILL */
     .langs .column {
