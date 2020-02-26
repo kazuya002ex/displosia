@@ -34,8 +34,21 @@ section {
 }
 
 .next-page {
-    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
 }
+
+.next-page p a {
+    margin: 22px;
+    background-color: #444;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px #ccc;
+}
+
+
 
 
 
