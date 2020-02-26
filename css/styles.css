@@ -151,6 +151,7 @@ section {
     text-align: center;
     font-size: 2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
 }
 
 .menus ul {
@@ -178,8 +179,37 @@ section {
 
 /* ABOUT */
 
+#about {
+    width: 90%;
+    margin: 0 auto;
+}
 
+.profile img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 88px;
+    box-shadow: 4px 4px 2px #888;
+}
 
+.profile h3,
+.profile .name-en {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+
+.profile .name-en {
+    border-bottom: 1px solid #eee;
+}
+
+.profile .desc {
+    padding: 10px 0;
+}
+
+.media {
+    margin: 20px 0 70px;
+}
 
 
 
